@@ -26,15 +26,12 @@ export default function Home() {
         <MaxWidthContainer className="pt-10 md:pt-28 flex flex-col">
           <div className="pt-10 md:pt-20 flex items-center flex-col justify-center gap-4 md:gap-6">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold max-w-4xl text-center text-shadow">
-              Developer Sculpting Exceptional Code Creations.
+              Developing Solutons on the World Computer.
             </h1>
-
             <p className="text-sm sm:text-lg italic max-w-prose text-center text-muted-foreground font-semibold">
-              Developer with a passion for sculpting exceptional code creations
-              and transforming innovative ideas into seamless digital
+              Handling all matters of logic from chains to chains, and transforming innovative ideas into seamless digital
               experiences.
             </p>
-
             <div className="flex flex-col items-center mt-2 sm:mt-6">
               <ChevronsDown className="w-9 h-9 text-muted-foreground leading-none animate-bounce duration-1000" />
             </div>
@@ -45,7 +42,7 @@ export default function Home() {
       <MaxWidthContainer className="pt-16 md:pt-28 flex flex-col">
         <Heading
           title="Featured Projects"
-          subtitle="I've worked on a lot of little projects over the years, but these are my favorites."
+          subtitle="These projects are the cream of the crop, curated from my extensive portfolio."
         />
 
         <FeaturedSection />
@@ -54,7 +51,7 @@ export default function Home() {
       <MaxWidthContainer className="pt-16 md:pt-28 flex flex-col">
         <Heading
           title="Latest Projects"
-          subtitle="Here are some of my latest projects"
+          subtitle="Here are some of my latest, and ongoing projects"
         />
 
         <LatestSection />

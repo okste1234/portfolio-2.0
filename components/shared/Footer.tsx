@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="mt-16 md:mt-28 border-t w-full bg-secondary">
       <MaxWidthContainer className="py-10 flex items-center justify-center md:justify-between text-center md:text-start gap-4 flex-wrap">
         <p className="text-sm sm:text-base text-muted-foreground">
-          Copyright © 2023 | Made with ❤️ by Abdullahi Salihu
+          Copyright © 2024 | Made with ❤️ by Adekunle Stephen
         </p>
 
         <div className="flex items-center space-x-2">

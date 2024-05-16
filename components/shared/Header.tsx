@@ -36,7 +36,7 @@ export default function Header() {
       <MaxWidthContainer className="flex items-center justify-between gap-x-6 h-full w-full">
         <Link
           href="/"
-          className="flex items-center space-x-2 pointer w-[156px]"
+          className="flex items-center space-x-2 pointer w-[184px]"
         >
           <Image
             src="/user.jpg"
@@ -47,7 +47,7 @@ export default function Header() {
             className="border object-contain rounded-full grayscale"
           />
 
-          <p className="font-semibold text-base">Web Sculptor</p>
+          <p className="font-semibold text-base">Adekunle Stephen</p>
         </Link>
 
         <div className="w-full max-w-[998px] flex-1 hidden md:flex items-center justify-center space-x-6">
@@ -69,7 +69,7 @@ export default function Header() {
         </div>
 
         <Link
-          href="tel:+2349120996480"
+          href="tel:+2347043631950"
           className="hidden md:flex items-center justify-end text-sm font-semibold pointer text-muted-foreground w-[156px]"
         >
           Let&apos;s talk
