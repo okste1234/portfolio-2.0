@@ -12,7 +12,7 @@ export default function ExperienceCard() {
   });
 
   return (
-    <div className="sm:rounded-3xl sm:bg-secondary w-full lg:max-w-md lg:max-h-[689.5px] flex flex-col justify-between md:gap-4 overflow-hidden sm:p-8 sm:border">
+    <div className="sm:rounded-3xl sm:bg-secondary w-full lg:max-w-md lg:max-h-full flex flex-col justify-between md:gap-4 overflow-hidden sm:p-8 sm:border">
       <h2 className="text-xl">Work Experience</h2>
 
       <div className="h-full overflow-y-auto">

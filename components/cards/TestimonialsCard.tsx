@@ -16,7 +16,7 @@ const testimonials = [
     {
     description: "Adekunle has always been honest and dependable. He is a natural born leader and is always willing to help solve any challenge.",
     name: "Tolulope Akinniyi",
-    title: "Software Developer, at Corehealth",
+    title: "Senior Developer, at Corehealth",
     imageSrc: "/tol.jpeg"
   },
 ];
