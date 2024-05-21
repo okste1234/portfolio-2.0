@@ -1,4 +1,4 @@
-import { Facebook, Heart, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Facebook, Heart, Instagram, Linkedin, Twitter, Github } from "lucide-react";
 
 export const faqs = [
   {
@@ -57,25 +57,25 @@ export const faqs = [
 
 export const footerLinks = [
   {
-    title: "Instagram",
-    icon: Instagram,
-    path: "/",
+    title: "Github",
+    icon: Github,
+    path: "https://github.com/okste1234",
   },
   {
     title: "Twitter",
     icon: Twitter,
-    path: "/",
+    path: "https://twitter.com/okste1234",
   },
   {
     title: "LinkedIn",
     icon: Linkedin,
-    path: "/",
+    path: "https://www.linkedin.com/in/okste",
   },
-  {
-    title: "Facebook",
-    icon: Facebook,
-    path: "/",
-  },
+  // {
+  //   title: "Facebook",
+  //   icon: Facebook,
+  //   path: "/",
+  // },
 ];
 
 export const contactData = [
