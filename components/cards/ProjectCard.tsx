@@ -9,7 +9,8 @@ export default function ProjectCard({
   description,
 }: ProjectCardProp) {
   return (
-    <div className="sm:bg-secondary rounded-lg border group overflow-hidden">
+    <Link href={`/works/${slug}`} className="pointer">
+      <div className="sm:bg-secondary rounded-lg border group overflow-hidden">
       <div className="w-full aspect-[1.5] border-b">
         <Image
           src={urlForImage(projectBanner)}
@@ -18,17 +19,19 @@ export default function ProjectCard({
           height={200}
           quality={100}
           priority
-          className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all"
+          className="w-full h-full object-cover transition-all"
+            // extra css classes = grayscale group-hover:grayscale-0
         />
       </div>
       <div className="p-4 sm:p-6">
-        <Link href={`/works/${slug}`} className="pointer w-max">
+        <div className="pointer w-max">
           <h2 className="text-base sm:text-lg font-semibold w-max">{name}</h2>
-        </Link>
+        </div>
         <p className="truncate text-muted-foreground text-sm sm:text-base">
           {description}
         </p>
       </div>
-    </div>
+      </div>
+    </Link> 
   );
 }
