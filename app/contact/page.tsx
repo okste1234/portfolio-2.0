@@ -14,7 +14,7 @@ export default function ContactPage() {
       <Hero
         showPath
         title={title}
-        description="I've received good feedback from customers, and I'd love to hear your thoughts. For access to the upload a feedback feature, kindly get in touch with me."
+        description="I've received good feedbacks, and I'd love to hear your thoughts. For access to upload a feedback feature, kindly get in touch with me."
       />
       <div className="pt-10 md:pt-20">
         <MaxWidthContainer className="flex flex-col md:flex-row gap-10 max-w-7xl">

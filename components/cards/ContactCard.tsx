@@ -34,6 +34,7 @@ export default function ContactForm() {
     // Do something with the form values.
     // ✅ This will be type-safe and validated.
     console.log(values);
+    // mailto://omorotimiadekunle@gmail.com
   }
 
   return (

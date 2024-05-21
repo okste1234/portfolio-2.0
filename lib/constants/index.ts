@@ -101,14 +101,14 @@ export const contactData = [
         ></path>
       </svg>`,
     name: "Send me an Email",
-    value: "abdullahisalihuinusa@gmail.com",
-    path: "mailto://abdullahisalihuinusa@gmail.com",
+    value: "omorotimiadekunle@gmail.com",
+    path: "mailto://omorotimiadekunle@gmail.com",
   },
   {
     icon: `<svg width="100%" height="1.5em" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-primary"><path d="M18.118 14.702L14 15.5c-2.782-1.396-4.5-3-5.5-5.5l.77-4.13L7.815 2H4.064c-1.128 0-2.016.932-1.847 2.047.42 2.783 1.66 7.83 5.283 11.453 3.805 3.805 9.286 5.456 12.302 6.113 1.165.253 2.198-.655 2.198-1.848v-3.584l-3.882-1.479z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>`,
     name: "Call Me",
-    value: "+234 912 099 6480",
-    path: "tel:+2349120996480",
+    value: "+234 704 363 1950",
+    path: "tel:+2347043631950",
   },
   {
     icon: `<svg width="100%" height="1.5em" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-primary"><path d="M7.9 8.08c0-4.773 7.5-4.773 7.5 0 0 3.409-3.409 2.727-3.409 6.818M12 19.01l.01-.011" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>`,
