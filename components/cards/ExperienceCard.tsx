@@ -61,9 +61,11 @@ export default function ExperienceCard() {
       </div>
 
       <div className="flex justify-end">
-        <Button className="rounded" variant="outline">
-          Download Resume
-        </Button>
+        <a href="/Adekunle_Resume.pdf" target="_blank" rel="noopener noreferrer">
+          <Button className="rounded" variant="outline">
+            Download Resume
+          </Button>
+        </a>
       </div>
     </div>
   );
