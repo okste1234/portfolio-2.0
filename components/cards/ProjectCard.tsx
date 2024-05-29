@@ -19,7 +19,7 @@ export default function ProjectCard({
           height={200}
           quality={100}
           priority
-          className="w-full h-full object-cover transition-all"
+          className="w-full h-full object-cover transition-all grayscale group-hover:grayscale-0"
             // extra css classes = grayscale group-hover:grayscale-0
         />
       </div>

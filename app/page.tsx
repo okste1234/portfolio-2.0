@@ -26,7 +26,7 @@ export default function Home() {
         <MaxWidthContainer className="pt-10 md:pt-28 flex flex-col">
           <div className="pt-10 md:pt-20 flex items-center flex-col justify-center gap-4 md:gap-6">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold max-w-4xl text-center text-shadow">
-              Developing Solutons on the World Computer.
+              Developing Solutions on the World Computer.
             </h1>
             <p className="text-sm sm:text-lg italic max-w-prose text-center text-muted-foreground font-semibold">
               Handling all matters of logic from chains to chains, and transforming innovative ideas into seamless digital
